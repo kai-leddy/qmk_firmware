@@ -26,6 +26,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* #define MASTER_RIGHT */
 #define EE_HANDS
 
+/* This should help with Mac M1 not recognising the board after sleep */
+#define USB_SUSPEND_WAKEUP_DELAY 200
+
 #undef RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS
 #define RGBLED_NUM 14
