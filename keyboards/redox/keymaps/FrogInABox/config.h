@@ -17,8 +17,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+#define PERMISSIVE_HOLD // helps with quick tap/hold actions
+
 /* Use I2C or Serial, not both */
-#define USE_SERIAL
+#define USE_SERIAL // Just use this one for the Falbatech Redox
 /* #define USE_I2C */
 
 /* Select hand configuration */
