@@ -18,14 +18,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 #define PERMISSIVE_HOLD // helps with quick tap/hold actions
-
 #define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD // double tap shift for caps word
+#define UNICODE_SELECTED_MODES UNICODE_MODE_MACOS
 
-/* Setup autoshift */
-#define AUTO_SHIFT_TIMEOUT 150 // NOTE: adjust this based on realtime tweaks
-#define NO_AUTO_SHIFT_SPECIAL
-#define NO_AUTO_SHIFT_NUMERIC
-#define AUTO_SHIFT_REPEAT
+//#define SPLIT_USB_DETECT
 
 /* Use I2C or Serial, not both */
 #define USE_SERIAL // Just use this one for the Falbatech Redox
